@@ -27,28 +27,28 @@ namespace WPFlabOOP
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Employee emp1 = new Employee();
-            emp1.Id = 1;
-            emp1.Name = "Art";
-            emp1.LastName = "dvp";
-            emp1.Position = "CTO";
-
-            Employee emp2 = new Employee();
-            emp2.Id = 2;
-            emp2.Name = "Art1";
-            emp2.LastName = "dvp2";
-            emp2.Position = "Chief";
-
-            Employee emp3 = new Employee();
-            emp3.Id = 3;
-            emp3.Name = "Art3";
-            emp3.LastName = "dvp3";
-            emp3.Position = "GG";
+            Employee emp1 = new Employee(1, "Art", "dvp", "CTO"); //constructor
+            //emp1.Id = 1;
+            //emp1.Name = "Art";
+            //emp1.LastName = "dvp";
+            //emp1.Position = "CTO";
+            Employee emp2 = new Employee(2, "Art1", "dvp2", "Chief"); //constructor
+            //emp2.Id = 2;
+            //emp2.Name = "Art1";
+            //emp2.LastName = "dvp2";
+            //emp2.Position = "Chief";
+            Employee emp3 = new Employee(3, "Art3", "dvp3", "GG"); //constructor
+            //emp3.Id = 3;
+            //emp3.Name = "Art3";
+            //emp3.LastName = "dvp3";
+            //emp3.Position = "GG";
+            Employee emp4 = new Employee(4,"Avp" , "dev");
 
             List<Employee> ListEmp = new List<Employee>();
             ListEmp.Add(emp1);
             ListEmp.Add(emp2);
             ListEmp.Add(emp3);
+            ListEmp.Add(emp4);
 
             foreach (Employee obj in ListEmp)
             {

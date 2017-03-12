@@ -19,6 +19,29 @@ namespace WPFlabOOP
         private string _lastName;
         private string _position;
 
+        public Employee(int id,string name ,string lastname,string position)
+        {
+            //constructor
+            Id = id;
+            Name = name;
+            LastName = lastname;
+            Position = position;
+            //set value
+        }
+        public Employee(int id , string name,string position)
+        {
+            Id = id;
+            Name = name;
+            Position = position;
+        }
+        //Overloading Same Method not same parameter
+        public Employee()
+        {
+            Id = 0;
+            Name = "undefinded";
+            LastName = "undefinded";
+            Position = "undefinded";
+        }
         //private string FullName()
         //{
         //    return _name + " " + _lastName;
