@@ -28,7 +28,7 @@ namespace WPFlabOOP
             Position = position;
             //set value
         }
-        public Employee(int id , string name,string position)
+        public Employee(int id , string name,string position):this()  //ให้ทำงานที่ Employee ก่อน
         {
             Id = id;
             Name = name;
