@@ -1,6 +1,8 @@
 # dotnet-csharp-OOP-borntodev
 BornToDev C# OOP -- N
 
+- [BornToDev OOP Youtube](https://www.youtube.com/playlist?list=PLcLc3KmtwXNSDVCZh8YiSqxLujU50CHRd)
+
 ## Class
 
 - [Class](/BornToOOP/Human.cs)
