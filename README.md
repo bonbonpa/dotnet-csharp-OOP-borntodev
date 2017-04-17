@@ -1,5 +1,5 @@
 # dotnet-csharp-OOP-borntodev
-BornToDev C# OOP -- N
+BornToDev C# OOP -- NdinG
 
 - [BornToDev OOP Youtube](https://www.youtube.com/playlist?list=PLcLc3KmtwXNSDVCZh8YiSqxLujU50CHRd)
 
